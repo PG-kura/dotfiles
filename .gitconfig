@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+[user]
+	name = kura
+	email = akatoza@gmail.com
+[merge]
+	tool = vimdiff
+[alias]
+	plog = log --pretty=format:\"%h - %an, %ar : %s\"
+
