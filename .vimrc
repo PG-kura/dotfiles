@@ -1,19 +1,20 @@
-"tabが押されたときに実際に挿入される空白の文字数
+"タブ入力時にスペースを挿入、タブ幅2
 set tabstop=2
-"オートインデント時に挿入される空白文字数
 set softtabstop=2
-"tabの代わりに半角スペースを挿入する
 set shiftwidth=2
+set expandtab
 "バックスペースが無効化されるのを防ぐ。
 set backspace=indent,eol,start
 "行番号を表示
-set nocompatible
 set number
 set ruler
+"ステータス表示とか
 set laststatus=2
 set showcmd
 
+"vi 互換とかよくわからんので OFF
+set nocompatible
 
+"色付けON
 syntax on
-
 
