@@ -9,4 +9,11 @@ set backspace=indent,eol,start
 "行番号を表示
 set nocompatible
 set number
+set ruler
+set laststatus=2
+set showcmd
+
+
 syntax on
+
+
