@@ -9,4 +9,3 @@ function! Rspec ()
 endfunction
 
 au BufRead,BufNewFile *_spec.rb :command! Spec :call Rspec()
-

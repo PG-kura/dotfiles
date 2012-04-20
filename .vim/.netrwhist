@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/kura/.vim/ftplugin'
+let g:netrw_dirhist_2='/home/kura/asp_weborder/app/views/front/domain_path_statistics'
+let g:netrw_dirhist_3='/home/kura/asp_weborder/spec'
+let g:netrw_dirhist_4='/home/kura/asp_weborder/spec/tasks'
+let g:netrw_dirhist_5='/home/kura/asp_weborder/acceptance'
+let g:netrw_dirhist_6='/usr/local/vim-7.3/share/vim/vim73/colors'
+let g:netrw_dirhist_7='/usr/local/vim-7.3/share/vim/vim73/doc'
