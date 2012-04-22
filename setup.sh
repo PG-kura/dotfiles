@@ -13,5 +13,5 @@ else
 	echo "以前の dotfiles は old_dotfiles ディレクトリに保管。"
 fi
 
-cp -rf .vim ~/.vim
+cp -rf .vim ~/
 
