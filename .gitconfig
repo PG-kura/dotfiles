@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[user]
+	name = PG_kura
+[merge]
+	tool = vimdiff
+[alias]
+	prevlog = log --pretty=format:\"%h - %an, %ar : %s\"
+
