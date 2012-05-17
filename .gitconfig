@@ -11,3 +11,4 @@
   finish = flow feature finish
 [push]
   default = tracking
+  publish = flow feature publish
