@@ -1,11 +1,11 @@
 [core]
-	editor = vim
+  editor = vim
 [user]
-	name = PG_kura
+  name = PG_kura
 [merge]
-	tool = vimdiff
+  tool = vimdiff
 [alias]
-	prevlog = log --pretty=format:\"%h - %an, %ar : %s\"
+  prevlog = log --pretty=format:\"%h - %an, %ar : %s\"
   graph = "log --graph --date=default --pretty=format:\"┬[%Cgreen#%h%Creset %cd %Cblue%cn%Creset]%n| %s%n└%Cred%d%Creset\""
   start = flow feature start
   finish = flow feature finish
