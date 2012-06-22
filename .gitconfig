@@ -9,6 +9,6 @@
   graph = "log --graph --date=default --pretty=format:\"┬[%Cgreen#%h%Creset %cd %Cblue%cn%Creset]%n| %s%n└%Cred%d%Creset\""
   start = flow feature start
   finish = flow feature finish
+  publish = flow feature publish
 [push]
   default = tracking
-  publish = flow feature publish
