@@ -18,3 +18,6 @@ set nocompatible
 "色付けON
 syntax on
 
+"ビープ音を消す
+set visualbell t_vb=
+
