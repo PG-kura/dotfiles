@@ -21,3 +21,7 @@ syntax on
 "ビープ音を消す
 set visualbell t_vb=
 
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up>   gk
