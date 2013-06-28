@@ -25,3 +25,6 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up>   gk
+
+"自動改行OFF
+set formatoptions=q
