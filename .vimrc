@@ -25,6 +25,8 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up>   gk
+nnoremap - :Switch<CR>
 
 "自動改行OFF
 set formatoptions=q
+
