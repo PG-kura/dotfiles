@@ -30,3 +30,9 @@ nnoremap - :Switch<CR>
 "自動改行OFF
 set formatoptions=q
 
+"行末のスペースハイライト
+augroup HighlightTrailingSpaces
+  autocmd!
+  autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
+  autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
+augroup END
